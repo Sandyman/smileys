@@ -16,12 +16,12 @@ class Smiley:
         O = self.BLANK
         self.pixels = [
             O, Y, Y, Y, Y, Y, Y, O,
-            Y, Y, O, Y, Y, O, Y, Y,
-            Y, Y, O, Y, Y, O, Y, Y,
             Y, Y, Y, Y, Y, Y, Y, Y,
             Y, Y, Y, Y, Y, Y, Y, Y,
-            Y, O, Y, Y, Y, Y, O, Y,
-            Y, Y, O, O, O, O, Y, Y,
+            Y, Y, Y, Y, Y, Y, Y, Y,
+            Y, Y, Y, Y, Y, Y, Y, Y,
+            Y, Y, Y, Y, Y, Y, Y, Y,
+            Y, Y, Y, Y, Y, Y, Y, Y,
             O, Y, Y, Y, Y, Y, Y, O,
         ]
 

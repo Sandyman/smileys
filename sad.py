@@ -1,10 +1,9 @@
-import time
 from smiley import Smiley
 
 
 class Sad(Smiley):
-    def __init__(self, sense_hat):
-        super().__init__(sense_hat)
+    def __init__(self):
+        super().__init__()
 
         self.draw_mouth()
         self.draw_eyes()
