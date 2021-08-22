@@ -4,6 +4,14 @@ from smiley import Smiley
 
 
 class Happy(Smiley, Blinkable):
+    """
+    Happy is a subclass of Smiley and of Blinkable.
+
+    Note that Blinkable is an interface (an abstract base
+    class that only contains an abstract method). By subclassing
+    Blinkable, this class promises to implement the abstract
+    method.See {meth:blink} below.
+    """
     def __init__(self):
         super().__init__()
 
@@ -30,6 +38,9 @@ class Happy(Smiley, Blinkable):
     def blink(self, delay=0.25):
         """
         Make the happy smiley blink once with a certain delay (in s).
+        This is the implementation of the abstract method from the
+        Blinkable abstract class.
+
         :param delay: Delay in seconds
         """
         self.draw_eyes(wide_open=False)
